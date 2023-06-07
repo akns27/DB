@@ -1,0 +1,4 @@
+select name, saleprice
+from customer name , orders saleprice
+where name.custid= saleprice.custid
+order by name;
